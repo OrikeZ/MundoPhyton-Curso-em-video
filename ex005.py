@@ -50,3 +50,13 @@ print('O salário R${}, com aumento de 15% ficará R${}'.format(salario, salario
 temp = float(input('Digite a temperatura em Celcius:'))
 print('A temperatura em F é: {}'.format((9*temp)/5+32))
 
+#Desafio numero 015
+km = float(input('Quantos kilometros você percorreu com o carro? '))
+dias = int(input('Quantos dias você permaneceu com o carro? '))
+pagkm = km*0.15
+pagdias = dias*60
+
+print('O valor a pagar é: R${}'.format(float(pagkm+pagdias)))
+
+
+
