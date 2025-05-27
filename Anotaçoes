@@ -1,0 +1,59 @@
+Tipos primitivos:
+ em python existem 4 principais tipos primitivos de variaveis
+
+  int para numeros inteiros ex: 2, 5, 1550
+  float para numeros com casa decimal com ponto flutuante ex 2.4, 1.2, 1442.23 e4m python a virgula usada nna lingua portuguesa é identificada com  o ponto
+  bool booleano ex: True, False
+  str string ex 'barco', 'praia', ''
+
+  Operações Aritiméticas
+  + soma
+  - subtração
+  * Multiplicação
+  / Divisão
+  ** Potência
+  // Divisão inteira
+  % resto da divisao
+
+  = é falando que algo recebe de algo
+  == comparação entre dois valores
+
+  Ordem de precedencia
+
+  1- ()
+  2- **1
+  3- * / // %
+  4- + -
+
+  print com operadores aritimeticos, {:20} fica com 20 caracteres de espaçom,
+  um numero na string do print {:.3f} fica apenas com 3 casas decimais
+
+  no final do print end=' ' finaliza e nao quebra linha para o proximo print
+  para quebrar \n quebra a linha
+
+  para fazer calculo de porcentagem
+  pegue a quantiade da porcentagem em questão, divida por 100, e multiplique ao numero em questão, o valor é a porcentagem referente ao numero
+
+ ex 15% de 20, pego 15/100=0,15 0,15*20 3, 3 é 15% de 20
+
+ resumo da ora fazer tb 15*20/100
+
+
+*******
+TRABALHANDO COM MODULOS
+
+para importar uma lib
+
+import nome da biblioteca
+
+from biblioteca import modulo
+
+math.trunc separa o valor inteiro de um numero float
+
+
+
+
+
+
+
+
