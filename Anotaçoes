@@ -39,6 +39,17 @@ Tipos primitivos:
  resumo da ora fazer tb 15*20/100
 
 
+*******
+TRABALHANDO COM MODULOS
+
+para importar uma lib
+
+import nome da biblioteca
+
+from biblioteca import modulo
+
+
+
 
 
 
