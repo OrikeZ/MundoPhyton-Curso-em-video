@@ -128,6 +128,20 @@ vai juntar as strings de uma lista da variavel var e unir usando o separador -
 
 para imprimir um texto longo com mais de uma linha, apenas ussar tres aspas duplas """ """
 
+*****
+Condições simples e compostas
+
+python identifica as condições pela identação do codigo
+portando a sintaxe fica dessa maneira:
+
+if condição:
+    algoritmo
+else
+    algoritimo
+
+ou
+
+print('positivo' if condição else 'negativo')
 
 
 
