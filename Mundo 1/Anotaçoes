@@ -1,0 +1,162 @@
+Tipos primitivos:
+ em python existem 4 principais tipos primitivos de variaveis
+
+  int para numeros inteiros ex: 2, 5, 1550
+  float para numeros com casa decimal com ponto flutuante ex 2.4, 1.2, 1442.23 e4m python a virgula usada nna lingua portuguesa é identificada com  o ponto
+  bool booleano ex: True, False
+  str string ex 'barco', 'praia', ''
+
+  Operações Aritiméticas
+  + soma
+  - subtração
+  * Multiplicação
+  / Divisão
+  ** Potência
+  // Divisão inteira
+  % resto da divisao
+
+  = é falando que algo recebe de algo
+  == comparação entre dois valores
+
+  Ordem de precedencia
+
+  1- ()
+  2- **1
+  3- * / // %
+  4- + -
+
+  print com operadores aritimeticos, {:20} fica com 20 caracteres de espaçom,
+  um numero na string do print {:.3f} fica apenas com 3 casas decimais
+
+  no final do print end=' ' finaliza e nao quebra linha para o proximo print
+  para quebrar \n quebra a linha
+
+  para fazer calculo de porcentagem
+  pegue a quantiade da porcentagem em questão, divida por 100, e multiplique ao numero em questão, o valor é a porcentagem referente ao numero
+
+ ex 15% de 20, pego 15/100=0,15 0,15*20 3, 3 é 15% de 20
+
+ resumo da ora fazer tb 15*20/100
+
+
+*******
+TRABALHANDO COM MODULOS
+
+para importar uma lib
+
+import nome da biblioteca
+
+from biblioteca import modulo
+
+math.trunc separa o valor inteiro de um numero float
+
+*****
+Manupulando cadeias de textos
+
+smpre que estiver trabalhando com fatiamento de string, ex print variavel [9:12]
+vai imprimir até o indicie 9 até 11
+
+se colocar mais um :nessa fromula ele pula de qnt em qnt, ex:
+
+print(variavel[9:15:2]
+vai imprimir as letras no idicie 9, 11, 13, 15, pois vai pular de 2 em 2
+
+se omitir o primeiro indicie ele inicia do indicie 0 ex
+print(var[:5], vai fatiar do indicie 0 até 5
+
+mesma coisa ao contrario print(var[15:], do inidice 15 até o final
+
+como analisar uma string
+
+len(var)
+
+vai mostrar a quantidade de indicies da string da variavel
+
+var.count('o')
+
+count vai contar quantos o 'o' existe na string
+
+podemos fazer isso já fatiando ex
+
+var.count('o', 0, 13)
+
+vai verificar as letras o do indicie 0 até  12
+
+.find('')
+
+vai precurar em uma string, em que indicie inicia a palavra em questão
+
+se retorna -1 é pq nao existe na string a palvra em questão
+
+operador in
+
+ex 'teste' in var
+
+vai olhar na variavel em questão a palavra em parenteses
+
+o in vai retornar true ou false.
+
+.replace para transformar uma string, ex
+
+var.replace('teste','testes')
+
+vai substituir a string teste por testes no conteudo
+
+.upper(), deixa tudo maiusculo, .lower() tudo minusculo
+
+.copitalize(), deixa capitalizadotudo minusculo e apenas a primeira letra da frase maiusculo
+
+.title(), coloca maisculo em primeira letra em todas as palavras
+
+.strip() para retirar os espaços inuteis no inicio e no final da string
+
+.rstrip() apenas os espaços no lado direito
+
+.lstrip() apenasnos espaços da esquerda
+
+Para dividir strings
+
+.split() vai dividir as strings entre os espaços
+e cria um array com as strings geradas
+
+
+.join() é para unir strings de uma lista em uma variavel
+
+ex '-'.join(var)
+
+vai juntar as strings de uma lista da variavel var e unir usando o separador -
+
+para imprimir um texto longo com mais de uma linha, apenas ussar tres aspas duplas """ """
+
+*****
+Condições simples e compostas
+
+python identifica as condições pela identação do codigo
+portando a sintaxe fica dessa maneira:
+
+if condição:
+    algoritmo
+else
+    algoritimo
+
+ou
+
+print('positivo' if condição else 'negativo')
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
