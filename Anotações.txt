@@ -1,0 +1,10 @@
+condições aninhadas
+
+if elif else
+
+Laço for
+
+for c in range(1,10):
+
+irá fazer a contagem de 1 até 9, pois no ultimo numero informado é onde 
+o algoritmo vai parar 
