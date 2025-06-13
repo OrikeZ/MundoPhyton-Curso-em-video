@@ -1,5 +1,11 @@
-import random
+from  random import randint
 
-n = (int(random.random()*100), int(random.random()*100), int(random.random()*100), int(random.random()*100), int(random.random()*100))
+numeros = (randint(1,10), randint(1,10), randint(1,10), randint(1,10), randint(1,10))
 
+print(f'Os valor sortados foram: ', end='')
 
+for n in numeros:
+    print(f'{n} ', end='')
+
+print(f'\nO maior valor sorteador foi {max(numeros)}')
+print(f'O menor valor sorteador foi {min(numeros)}')
