@@ -1,0 +1,5 @@
+tabela = ('Flamengo','Cruzeiro','Bragantino','Palmeiras','Fluminense','Botafogo','Bahia','Chapecoense','Atletico-MG','Ceará','Corinthians','Grêmio','São Paulo', 'Internacional', 'Vasco da Gama', 'Vitória', 'Fortaleza','Santos','Juventude','Sport')
+print(f'Os cinco primeiros colocados são: {tabela[:5]}')
+print(f'Os quatro últimos colocados são: {tabela[-4:]}')
+print(f'A ordem dos times da Serie A em ordem alfabética é: {sorted(tabela)}')
+print(f'A Chapecoense está na posição {tabela.index('Chapecoense')+1}')
