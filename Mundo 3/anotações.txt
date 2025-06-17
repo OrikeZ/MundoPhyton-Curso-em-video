@@ -1,0 +1,18 @@
+Tuplas ('')
+listas ['']
+
+tuplas são imutaveis, listas são mutaveis
+
+em listas, para remover um item
+
+del variavel[3]
+variavel.pop(3)
+variavel.remove('item')
+variavel.pop() remove o ultimo elemento da lista
+variavel = list(range(4,11)) cria uma lista com numero de 4 até 10 
+variavel.sort() ordena todos os valores de uma lista
+variavel.sort(reverse=True) ordena ao contrario
+len(variavel) conta os indicies de uma lista
+
+quando igualo uma lista ex a=b o python cria uma ligação entre elas, se eu mexer na lista b por ex b[2]=8, vai alterar na lista a também
+se eu uso b = a[:] ele vai apenas copiar, e não vai criar essa ligação
