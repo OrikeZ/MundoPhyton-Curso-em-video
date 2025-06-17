@@ -16,3 +16,14 @@ len(variavel) conta os indicies de uma lista
 
 quando igualo uma lista ex a=b o python cria uma ligação entre elas, se eu mexer na lista b por ex b[2]=8, vai alterar na lista a também
 se eu uso b = a[:] ele vai apenas copiar, e não vai criar essa ligação
+
+dados = ['Pedro', 25]
+pessoas = list()
+pessoas.append(dados[:]) isso vai fazer com que a lista de dados seja copiada para a lista pessoas
+
+ficaria pessoas = [['pedro',25], ['Maria',19],['João', 32]]
+são listas dentro de listas como que
+
+a lista dados seja um item dentro da lista pessoas:
+para imprimir pedro seria como print(pessoas[0][0])
+
